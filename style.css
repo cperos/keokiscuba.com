@@ -19,7 +19,16 @@
 .murphys-background {
   background: url(scuba.jpg) no-repeat center center fixed;
   background-size: cover;
-  height: 450px;
+  height: 700px;
   color: white;
-  align-items: center;
+}
+
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 80px;
+  background-color: #fbfbfb;
 }

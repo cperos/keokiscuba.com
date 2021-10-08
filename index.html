@@ -11,20 +11,25 @@
 </head>
 <body>
 
-<div class="ui borderless topmenu container menu">
+<nav class="fixed-nav-bar">
+
+<div class="ui borderless static topmenu container menu">
 
   <img class="ui image item" src="logo.PNG" alt="">
 
-  <a class="right item">HOME</a>
-  <a class="item">HELPFUL TIPS</a>
-  <a class="item">REG ID</a>
-  <a class="item">RATES</a>
+  <a class="right item">Home</a>
+  <a class="item">Helpful Tips</a>
+  <a class="item">Reg ID</a>
+  <a class="item">Rates</a>
   <div class="ui dropdown item">
-    <div class="text">SERVICE</div>
+    <div class="text">Service</div>
     <i class="dropdown icon"></i>
     <div class="menu">
-      <div class="item">SERVICE INFORMATION</div>
-      <div class="item">SERVICE ORDER FORM</div>
+      <div class="item">Service Information</div>
+      <div class="item">Service Interval</div>
+      <div class="item">Supported Brands</div>
+      <div class="item">Service Order Form</div>
+
     </div>
   </div>
 
@@ -32,14 +37,18 @@
 
 </div>
 
+</nav>
+
 <div class="murphys-background">
-  <div style="height: 500px" class="ui middle aligned centered grid container ">
+  <div style="height: 750px" class="ui middle aligned grid container ">
     <div class="two column row">
       <div class="column">
 
 
       </div>
       <div class="column">
+
+        <h1>Professional Scuba Repair Services</h1>
 
         <h3>Operated by Keoki Stender, manufacturer-trained service technician with over 25 years experience in the scuba diving industry.
           Direct to customer and wholesale to dive centers. Marine biological surveys, fish, corals, and invertebrates for Hawaii and the Indo-Pacific.
@@ -56,8 +65,13 @@
 
 <div class="ui borderless botmenu container menu">
   <a class="item">41-652 Inoaole Street Waimanalo, HI 96791</a>
-  <a class="right item"><button class="ui blue button">LINKS</button></a>
+  <a class="right item"><button class="ui blue button">Links</button></a>
 </div>
 
+<script>
+  $('.ui.dropdown')
+    .dropdown()
+  ;
+</script>
 </body>
 </html>
