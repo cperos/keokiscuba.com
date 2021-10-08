@@ -1,18 +1,25 @@
 .ui.borderless.topmenu.container.menu {
+  height: 80px;
   box-shadow: none;
   border: none;
+  background-color: #fbfbfb;
+}
+
+
+
+.ui.borderless.botmenu.container.menu {
+  height: 10%px;
+  box-shadow: none;
+  border: none;
+  background-color: #fbfbfb;
+  color: darkblue;
+  padding: 0px;
 }
 
 .murphys-background {
-  background: url(http://courses.ics.hawaii.edu/ics314f20/morea/ui-frameworks/murphys-front.jpg) no-repeat center center fixed;
+  background: url(scuba.jpg) no-repeat center center fixed;
   background-size: cover;
-  height: 500px;
+  height: 450px;
   color: white;
-}
-
-.footer-background {
-  background-color: #004030;
-  color: white;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  align-items: center;
 }
